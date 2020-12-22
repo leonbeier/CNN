@@ -1,0 +1,38 @@
+#OfficialHardware: Core MAX10 Ultra | Please do not remove this line!
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M16SAU169C8G
+set_global_assignment -name TOP_LEVEL_ENTITY CNN_Test
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 8
+set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE"
+set_global_assignment -name VHDL_FILE Generated/CNN_Test.vhd
+set_global_assignment -name VHDL_FILE Generated/bitwidths.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/cnn_types.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/convElement.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/dsp_layer.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/firstLayer.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/maxPool.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/multi_conv_comb.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/neighExtractor.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/poolH.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/poolLayer.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/poolV.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/sumElement.vhd
+set_global_assignment -name VHDL_FILE Libraries/CNN/taps.vhd
+set_global_assignment -name QSYS_FILE Libraries/ISSP/ISSP.qsys
+set_location_assignment PIN_D13 -to led
+set_location_assignment PIN_H6 -to CLK

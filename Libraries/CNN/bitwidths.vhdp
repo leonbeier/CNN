@@ -1,0 +1,4 @@
+Package bitwidths
+{    constant PIXEL_CONST    : integer := 8;
+    constant SUM_WIDTH     : integer := 4*PIXEL_CONST;
+}

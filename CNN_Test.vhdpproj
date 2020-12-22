@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<ProjectRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>CNN_Test</Header>
+  <Items xsi:type="ProjectFolder">
+    <Header>Generated</Header>
+    <Items xsi:type="ProjectFileVHDL">
+      <Header>CNN_Test.vhd</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVHDL">
+      <Header>bitwidths.vhd</Header>
+    </Items>
+  </Items>
+  <Items xsi:type="ProjectFolder">
+    <Header>Libraries</Header>
+    <Items xsi:type="ProjectFolder">
+      <Header>CNN</Header>
+      <Items xsi:type="ProjectFileVHDP">
+        <Header>bitwidths.vhdp</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>cnn_types.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>convElement.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>dsp_layer.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>firstLayer.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>maxPool.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>multi_conv_comb.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>neighExtractor.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>poolH.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>poolLayer.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>poolV.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>sumElement.vhd</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>taps.vhd</Header>
+      </Items>
+    </Items>
+    <Items xsi:type="ProjectFolder">
+      <Header>ISSP</Header>
+      <Items xsi:type="ProjectFile">
+        <Header>ISSP.qsys</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDP">
+        <Header>ISSP.qsys.vhdp</Header>
+      </Items>
+    </Items>
+  </Items>
+  <Items xsi:type="ProjectFileVHDP">
+    <Header>CNN_Test.vhdp</Header>
+  </Items>
+  <CruviHSExtensions>
+    <string xsi:nil="true" />
+  </CruviHSExtensions>
+  <CruviLSExtensions>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </CruviLSExtensions>
+  <IOVoltage>0</IOVoltage>
+  <UseShield>false</UseShield>
+</ProjectRoot>
